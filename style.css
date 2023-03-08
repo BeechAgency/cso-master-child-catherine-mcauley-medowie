@@ -24,7 +24,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 
 /* --------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url("https://use.typekit.net/lpx0fyh.css");
 
 :root {
 	--primary-dark : #003e52;
@@ -34,18 +34,20 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 	--warning : #E31E39;
 	--success : #2DC98D;
 
-	--ff-raleway :'Raleway', Helvetica, Arial, sans-serif;
-	--ff-serif: var(--ff-raleway);
-	--ff-sans: var(--ff-raleway);
-	--ff-headings: var(--ff-raleway);
-	--ff-body: var(--ff-raleway);
+	--ff-adele: "adelle", serif;
+	--ff-myriad :"myriad-pro", Helvetica, Arial, sans-serif;
+	--ff-serif: var(--ff-adele);
+	--ff-sans: var(--ff-myriad);
+	--ff-headings: var(---ff-adele);
+	--ff-body: var(--ff-myriad);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-weight: 400;
 }
-h4,h5 {
-	font-weight: 300;
+h5 {
+	font-weight: 400;
+	font-family: var(--ff-sans);
 }
 
 .block.has-school-style::after {
